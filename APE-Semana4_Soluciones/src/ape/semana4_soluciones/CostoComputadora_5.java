@@ -4,8 +4,11 @@ Generar un algoritmo que permita calcular y mostrar el costos de una computadora
 La misma es comprada por partes; CPU, teclado, pantalla, ratón.
  */
 package ape.semana4_soluciones;
+
 import java.util.Scanner;
+
 public class CostoComputadora_5 {
+
     public static void main(String[] args) {
         double costoCPU, costoTeclado, costoPantalla, costoRaton, costoTotal;
         Scanner teclado = new Scanner(System.in);
@@ -19,5 +22,5 @@ public class CostoComputadora_5 {
         costoRaton = teclado.nextDouble();
         costoTotal = (costoCPU + costoTeclado + costoPantalla + costoRaton);
         System.out.println("Ingrese el costo total de la computadora de escritorio " + costoTotal);
-    }   
+    }
 }
